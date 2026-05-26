@@ -7,6 +7,7 @@
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "test": "vitest",
+    "build": "tsup src",
     "knex": "node --import tsx ./node_modules/knex/bin/cli.js",
     "lint:fix": "biome format --write",
     "prepare": "husky"
@@ -27,6 +28,7 @@
     "husky": "^9.1.7",
     "lint-staged": "^17.0.4",
     "supertest": "^7.2.2",
+    "tsup": "^8.5.1",
     "tsx": "^4.21.0",
     "typescript": "^6.0.3",
     "vitest": "^4.1.7"
