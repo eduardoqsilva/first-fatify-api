@@ -6,3 +6,4 @@ db/app.db
 
 # env files
 .env
+.env.test
