@@ -3,6 +3,7 @@ node_modules/
 
 # ignore sqLite db
 db/app.db
+db/test.db
 
 # env files
 .env
